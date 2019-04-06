@@ -1,16 +1,11 @@
-$(window).on("load", function(){
-	$(".loader .inner").fadeOut(500, function(){
+$(window).on("load", function() {
+
+	$(".loader .inner").fadeOut(500, function() {
 		$(".loader").fadeOut(750);
 	});
-	$(".items").isotope({
-			filter: selector,
-			animationOptions: {
-				duration: 1500,
-				easing: 'linear',
-				queue: false
-			}
-		});
+
 })
+
 
 
 
@@ -23,7 +18,7 @@ $(document).ready(function() {
 	});
 
 	var typed = new Typed(".typed", {
-		strings: ["Student.", "Web Developer.","App Developer."],
+		strings: ["Software Engineer.", "Web Developer.", "Student."],
 		typeSpeed: 70,
 		loop: true,
 		startDelay: 1000,
@@ -111,19 +106,31 @@ $(document).ready(function() {
 
 		var selector = $(this).attr("data-filter");
 
+		$(".items").isotope({
+			filter: selector,
+			animationOptions: {
+				duration: 1500,
+				easing: 'linear',
+				queue: false
+			}
+		});
 
 		return false;
 	});
 
-	$("#navigation li a").click(function(e){
+
+
+	$("#navigation li a").click(function(e) {
 		e.preventDefault();
 
 		var targetElement = $(this).attr("href");
 		var targetPosition = $(targetElement).offset().top;
-		$("html, body").animate({
-			scrollTop: targetPosition - 50
-		}, "slow")
+		$("html, body").animate({ scrollTop: targetPosition - 50 }, "slow");
+
 	});
+
+
+
 
 	const nav = $("#navigation");
 	const navTop = nav.offset().top;
