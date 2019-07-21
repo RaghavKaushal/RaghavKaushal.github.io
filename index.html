@@ -18,6 +18,12 @@
 </head>
 <body>
 
+<div class="loader">
+	<div class="inner">
+		
+	</div>
+</div>
+
 <div id="slides">
   <div class="overlay"></div>
 	  <div class="slides-container">
@@ -307,7 +313,7 @@
 
 
 						<div class="item">
-							<img src="img/portfolio/thumbnails/pic1-square.jpg" >
+							<img src="img/titlelogo.jpg" >
 							<div class="icons">
 								<a href="img/portfolio/pic1.jpg" title="View image" class="openButton" data-fancybox data-caption = "Native mobile app.">
 									<i class="fa fa-search"></i>
@@ -456,8 +462,8 @@
 
 <script src="js/typed.min.js"></script>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 <script type="text/javascript" src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
@@ -465,16 +471,6 @@
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
 <script src="js/script.js"></script>
-<script type="text/javascript">
-	$(window).on('load', function(){
-  setTimeout(removeLoader, 2000); //wait for page load PLUS two seconds.
-});
-function removeLoader(){
-    $( "#loadingDiv" ).fadeOut(500, function() {
-      // fadeOut complete. Remove the loading div
-      $( "#loadingDiv" ).remove(); //makes page more lightweight 
-  });  
-}
-</script>
+
 </body>
 </html>
