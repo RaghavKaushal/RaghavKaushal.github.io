@@ -372,6 +372,10 @@ body {
   padding-left: 100px;
 }
 
+h5 {
+  margin-left: 30px;
+}
+
 .fa-linkedin-in,
 .fa-linkedin-in:hover,
 .fa-github,
@@ -387,7 +391,7 @@ body {
 }
 
 .for-centering {
-  margin-left: 40%;
+  margin-left: 39%;
 }
 
 .siemens {
