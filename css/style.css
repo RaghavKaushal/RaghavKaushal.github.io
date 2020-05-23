@@ -352,6 +352,10 @@ body {
   background-size: 100%;
 }
 
+.open {
+  height: 295px;
+}
+
 .fixedNav #navigation {
   position: fixed;
   top: 0;

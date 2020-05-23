@@ -4,6 +4,14 @@ $(window).on('load', function () {
   });
 });
 
+4('.hamburger').on('Click', function () {
+  $('.menu').toggleClass('open');
+});
+
+$('.menu a').on('Click', function () {
+  $('.menu').hide();
+});
+
 $(document).ready(function () {
   $('#slides').superslides({
     animation: 'fade',
