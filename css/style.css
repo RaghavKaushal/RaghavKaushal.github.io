@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Playfair+Display:ital,wght@0,400;1,500&display=swap');
+html,
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
 body {
   font-size: 14px;
   color: #333;
@@ -338,7 +348,7 @@ body {
 }
 
 .navbar-toggler-icon {
-  background: url(../img/icons/menu.png);
+  background: url(../img/icons/menu.svg);
   background-size: 100%;
 }
 
@@ -357,9 +367,9 @@ body {
   z-index: 1000;
 }
 
-/* .langli {
-  padding-right: 50px;
-} */
+.sectionTitle {
+  font-family: 'Playfair Display', serif;
+}
 
 .language {
   padding-left: 20px;
@@ -390,17 +400,17 @@ h5 {
   text-decoration: none;
 }
 
-.for-centering {
-  margin-left: 39%;
-}
-
-.siemens {
-  margin-left: 100px;
-}
-
 li {
   text-align: start;
 }
+.contactIcons {
+  text-align: center;
+}
+
+.mainName {
+  font-family: 'Balsamiq Sans', cursive;
+}
+
 .loader .inner {
   width: 100%;
   height: 100%;
