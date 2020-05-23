@@ -369,6 +369,7 @@ body {
 
 .sectionTitle {
   font-family: 'Playfair Display', serif;
+  padding-bottom: 10px;
 }
 
 .language {
@@ -379,7 +380,7 @@ body {
 .frameworks,
 .os,
 .db {
-  padding-left: 100px;
+  padding-left: 60px;
 }
 
 h5 {
